@@ -6,6 +6,7 @@ import News from '../components/News'
 import NewsLetter from '../components/NewsLetter'
 import Solution from '../components/Solution'
 import Planning from '../components/Planning'
+import Framework from '../components/Framework'
 
 export default function Home() {
   return (
@@ -20,11 +21,12 @@ export default function Home() {
         </div>
         <div>
             <Experience/>
-            <Services />
-            <Planning />
-            <Solution />
-            <NewsLetter />
-            <News />
+            <Services/>
+            <Framework/>
+            <Planning/>
+            <Solution/>
+            <NewsLetter/>
+            <News/>
         </div>
     </div>
   )
