@@ -2,6 +2,10 @@ import bgImage from '../assets/Images/bg-1.png'
 import arrow from '../assets/Images/arrow.png'
 import Experience from '../components/Experience'
 import Services from '../components/Services'
+import News from '../components/News'
+import NewsLetter from '../components/NewsLetter'
+import Solution from '../components/Solution'
+import Planning from '../components/Planning'
 
 export default function Home() {
   return (
@@ -17,6 +21,10 @@ export default function Home() {
         <div>
             <Experience/>
             <Services />
+            <Planning />
+            <Solution />
+            <NewsLetter />
+            <News />
         </div>
     </div>
   )
