@@ -1,0 +1,12 @@
+import bgImage from '../assets/Images/bg-1.png'
+
+export default function About(){
+    return(
+        <div classname="w-full">
+            <div className="w-full bg-cover bg-center bg-no-repeat py-12 px-5 text-white" style={{ backgroundImage: `url(${bgImage})` }}>
+                <p className="leading-loose text-amber-500 text-start"><a className="text-white leading-loose">Home</a>| About Us</p>
+                <h1 className="text-start text-white font-bold">About Us</h1>
+            </div>
+        </div>
+    )
+}
