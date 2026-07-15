@@ -29,8 +29,8 @@ export default function Planning(){
                                 </li>
                             </ul><br/>
                         </div>
-                        <div>
-                            <a href="#" className="w-full py-3 px-7 bg-black self-center group-hover:bg-amber-500 text-white border-1 rounded-md transition-all duration-500 ease-in-out border-solid">Get Your Plan Done</a>
+                        <div className="flex flex-col items-center">
+                            <a href="#" className="w-fit py-3 px-7 bg-black self-center group-hover:bg-amber-500 text-white border-1 rounded-md transition-all duration-500 ease-in-out border-solid">Get Your Plan Done</a>
                         </div>
                     </div>
                     </div>
@@ -62,8 +62,8 @@ export default function Planning(){
                                 </li>
                             </ul><br/>
                         </div>
-                        <div>
-                            <a href="#" className="w-full py-3 px-7 bg-black self-center text-white border-1 rounded-md transition-all duration-500 ease-in-out border-solid">Get Your Plan Done</a>
+                        <div className="flex flex-col items-center">
+                            <a href="#" className="w-fit py-3 px-7 bg-black self-center text-white border-1 rounded-md transition-all duration-500 ease-in-out border-solid">Get Your Plan Done</a>
                         </div>
                     </div>
                     </div>
@@ -89,8 +89,8 @@ export default function Planning(){
                                 </li>
                             </ul><br/>
                         </div>
-                        <div>
-                            <a href="#" className="w-full py-3 px-7 bg-black self-center group-hover:bg-amber-500 text-white border-1 rounded-md transition-all duration-500 ease-in-out border-solid">Get Your Plan Done</a>
+                        <div className="flex flex-col items-center">
+                            <a href="#" className="w-fit py-3 px-7 bg-black self-center group-hover:bg-amber-500 text-white border-1 rounded-md transition-all duration-500 ease-in-out border-solid">Get Your Plan Done</a>
                         </div>
                     </div>
                     </div>

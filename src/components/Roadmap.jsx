@@ -14,7 +14,7 @@ import dollar from '../assets/Images/dollar.png'
 
 export default function Roadmap(){
     return(
-        <section>
+        <section className="w-full bg-zinc-900">
             <h1 className="text-8xl font-bold">Roadmap</h1>
             <h3 className="text-3xl font-bold">Company Roadmap</h3>
             <div className="w-full my-12">

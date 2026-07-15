@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/Images/logo.png'
 import search from '../assets/Images/search.png'
 import grid from '../assets/Images/grid.png'
@@ -9,10 +10,10 @@ export default function Header(){
                 <div className="flex flex-row p-5 text-white w-full justify-between ">
                     <div className="flex flex-row gap-5">
                         <div>
-                            <a href="#"><span className="font-bold">Working Hours:</span> Mon - Sat 8:00 - 18:00</a>
+                            <a href="#" className="hover:text-amber-500 transition-all duration-300 ease-in-out"><span className="font-bold ">Working Hours:</span> Mon - Sat 8:00 - 18:00</a>
                         </div>
                         <div>
-                            <a href="#" className="font-bold">Terms and Conditions</a>
+                            <a href="#" className="font-bold hover:text-amber-500 transition-all duration-300 ease-in-out">Terms and Conditions</a>
                         </div>
                     </div>
                     <div className="flex flex-row justify-end">
@@ -38,7 +39,7 @@ export default function Header(){
                             <span>Mail Us Now</span>
                         </div>
                         <div className="mx-7">
-                            <button onClick="" className="font-bold text-white px-5 py-4 bg-amber-500 rounded-xl">Get A Qoute</button>
+                            <button className="font-bold text-white px-5 py-4 bg-amber-500 rounded-xl">Get A Qoute</button>
                         </div>
                     </div>
                 </div>
@@ -46,12 +47,12 @@ export default function Header(){
                     <div className="rounded-xl overflow-hidden flex flex-row justify-between bg-zinc-900">
                         <div className="flex flex-row justify-start w-full">
                             <ul className="flex flex-row text-white font-bold gap-10 p-5">
-                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">Home</li>
-                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">About</li>
-                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">Pages</li>
-                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">Services</li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/">Home</Link></li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/About">About</Link></li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/">Pages</Link></li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/Services">services</Link></li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">News</li>
-                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">Contact</li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/Contact">Contact</Link></li>
                             </ul>
                         </div>
                         <div className="flex flex-row">
