@@ -4,8 +4,8 @@ import p_3 from '../assets/Images/p_3.png'
 
 export default function Process(){
     return(
-        <section>
-            <div className="flex flex-row">
+        <section className="w-full flex flex-col items-center py-12 bg-zinc-800">
+            <div className="flex flex-row w-full max-w-7xl">
                 <div className="p-7">
                     <div className="p-12 relative">
                         <img src={p_1}/>

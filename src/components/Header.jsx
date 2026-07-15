@@ -50,7 +50,7 @@ export default function Header(){
                                 <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/">Home</Link></li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/About">About</Link></li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/">Pages</Link></li>
-                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/Services">services</Link></li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/Services">Services</Link></li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-amber-500">News</li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-amber-500"><Link to="/Contact">Contact</Link></li>
                             </ul>

@@ -3,10 +3,10 @@ import { useState } from "react"
 export default function Portfolio(){
 
     return(
-        <section className="py-12">
-            <div className=" flex flex-col items-center">
+        <section className="py-12 w-full flex flex-col bg-zinc-900 items-center">
+            <div className=" flex flex-col items-center w-full max-w-7xl">
                 <div className="relative flex flex-col items-center">
-                    <h1 className="[-webkit-text-stroke:0.3px_white] text-transparent text-8xl font-extrabold">Portfolio</h1>
+                    <h1 className="[-webkit-text-stroke:0.7px_white] text-transparent text-9xl font-extrabold">Portfolio</h1>
                     <h2 className="font-bold text-3xl absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">Our Case Study</h2>
                 </div>
                 <div className="flex flex-row gap-3 p-2 w-fit">

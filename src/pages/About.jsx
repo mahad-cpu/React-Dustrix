@@ -7,7 +7,7 @@ import Skillset from '../components/Skillset'
 
 export default function About(){
     return(
-        <div classname="w-full">
+        <section classname="w-full">
             <div className="w-full flex flex-col items-center py-12 px-5 text-white" style={{ backgroundImage: `url(${bgImage})` }}>
                 <div className="w-full max-w-7xl py-7">
                     <p className="leading-loose text-amber-500 text-start"><a className="text-white leading-loose">Home</a>| About Us</p>
@@ -19,6 +19,6 @@ export default function About(){
             <Skillset/>
             <Client/>
             <Roadmap/>
-        </div>
+        </section>
     )
 }

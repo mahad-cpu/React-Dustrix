@@ -15,7 +15,7 @@ import dollar from '../assets/Images/dollar.png'
 export default function Roadmap(){
     return(
         <section className="w-full bg-zinc-900">
-            <h1 className="text-8xl font-bold">Roadmap</h1>
+            <h1 className="text-9xl font-extrabold">Roadmap</h1>
             <h3 className="text-3xl font-bold">Company Roadmap</h3>
             <div className="w-full my-12">
                 <Swiper 
@@ -23,9 +23,10 @@ export default function Roadmap(){
                     slidesPerView={5} 
                     spaceBetween={3} 
                     loop={true} 
-                    className="mySwiper"
+                    className="mySwiper bg-zinc-900"
+                    
                 >
-                    <SwiperSlide>
+                    <SwiperSlide className="bg-zinc-900">
                         <div className="flex flex-col items-center w-fit p-5"> 
                             <h1 className="font-bold text-5xl [-webkit-text-stroke:2px_orange]">2000</h1>
                             <div className="w-fit"><img src={badge} className="scale-150" /></div><br/>
