@@ -2,6 +2,7 @@ import bgImage from '../assets/Images/bg-1.png'
 import Amwerk from '../components/Amwerk '
 import Approach from '../components/Approach'
 import Client from '../components/Clients'
+import Roadmap from '../components/Roadmap'
 import Skillset from '../components/Skillset'
 
 export default function About(){
@@ -13,8 +14,9 @@ export default function About(){
             </div>
             <Amwerk/>
             <Approach/>
-            <Client/>
             <Skillset/>
+            <Client/>
+            <Roadmap/>
         </div>
     )
 }

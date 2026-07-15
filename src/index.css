@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
 @layer base {
   :root {
     --text: #6b6375;
@@ -95,7 +97,7 @@
 /* 2. Put layout or component specific IDs and classes in the utilities or components layer */
 @layer utilities {
   #root {
-    width: 1200px;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
     text-align: center;

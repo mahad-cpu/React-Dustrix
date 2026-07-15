@@ -1,0 +1,22 @@
+import { useState } from "react"
+
+export default function Portfolio(){
+
+    return(
+        <section className="py-12">
+            <div className=" flex flex-col items-center">
+                <div className="relative flex flex-col items-center">
+                    <h1 className="[-webkit-text-stroke:0.3px_white] text-transparent text-8xl font-extrabold">Portfolio</h1>
+                    <h2 className="font-bold text-3xl absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">Our Case Study</h2>
+                </div>
+                <div className="flex flex-row gap-3 p-2 w-fit">
+                    <button onClick={() => tab_f('All')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">View All</button>
+                    <button onClick={() => tab_f('BedRoom')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">Bedroom Making</button>
+                    <button onClick={() => tab_f('Floor')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">Floor Making</button>
+                    <button onClick={() => tab_f('Office')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">Office Making</button>
+                    <button onClick={() => tab_f('Home')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">Home Making</button>
+                </div>
+            </div>
+        </section>
+    )
+}
