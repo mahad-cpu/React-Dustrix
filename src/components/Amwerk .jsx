@@ -4,30 +4,30 @@ import road from '../assets/Images/road.png'
 
 export default function  Amwerk(){
     return(
-        <section className="w-full flex flex-col items-center bg-zinc-900 py-12">
-            <div className="w-full max-w-7xl py-12">
+        <section className="w-full flex flex-col items-center bg-white py-12">
+            <div className="w-full max-w-7xl py-12 bg-white">
                 <div className="flex flex-col lg:flex-row gap-3 p-5">
                     <div className="pr-12 lg:w-[50%]">
                         <img src={ab_1} className="object-contain"/>
                     </div>
-                    <div className="text-start lg:w-[50%]">
-                        <p>Easily import the whole Industry</p>
-                        <h1 className="text-5xl font-bold m-0">Amwerk is always interested.</h1>
-                        <div className="border-l border-solid border-amber-500 px-2 my-7">
-                            <h2>Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.</h2>
+                    <div className="text-start lg:w-[50%] flex flex-col justify-between py-8">
+                        <p className="text-zinc-500">Easily import the whole Industry</p>
+                        <h1 className="text-6xl m-0 text-black">Amwerk is always interested.</h1>
+                        <div className="border-l border-solid border-yellow-300 px-3 py-1 my-7">
+                            <h2 className="text-black">Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.</h2>
                         </div><hr/><br/>
                         <div className="flex flex-row items-center gap-3">
-                            <div className="p-5 rounded-full bg-amber-500"><img src={helmet} className="scale-150" /></div>
+                            <div className="p-7 rounded-full bg-yellow-300"><img src={helmet} className="scale-170" /></div>
                             <div>
-                                <h2 className="font-bold text-sm">Great Wall Support</h2>
-                                <p className="text-xs">Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt</p>
+                                <h2 className="font-bold text-md text-black ">Great Wall Support</h2>
+                                <p className="text-xs text-zinc-500 w-[80%]">Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt</p>
                             </div>
                         </div>
                         <div className="flex flex-row items-center gap-3 mt-5">
-                            <div className="p-5 rounded-full bg-amber-500"><img src={helmet} className="scale-150" /></div>
+                            <div className="p-7 rounded-full bg-yellow-300"><img src={helmet} className="scale-150" /></div>
                             <div>
-                                <h2 className="font-bold text-sm">Creative Ideas</h2>
-                                <p className="text-xs">Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt</p>
+                                <h2 className="font-bold text-md text-black">Creative Ideas</h2>
+                                <p className="text-xs text-zinc-500 w-[80%]">Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt</p>
                             </div>
                         </div>
                     </div>

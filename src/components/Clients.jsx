@@ -11,40 +11,43 @@ import cl_10 from '../assets/Images/cl_10.png'
 
 export default function Client(){
     return(
-        <section className="flex flex-col items-center bg-zinc-800">
+        <section className="flex flex-col items-center bg-zinc-100 p-12">
             <div className="py-12">
-                <h1 className="text-8xl font-bold">Clients</h1>
-                <h2 className="text-3xl font-bold">Our Sponsors</h2>
+                <div className="relative">
+                    <h1 className="font-extrabold text-[160px] mb-0 text-white">Clients</h1>
+                    <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">Our Sponsors</h2>
+                    <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Sponsors</h4>
+                </div>
                 <br/>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-5">
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-5 mt-12">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_1} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_2} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_3} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_4} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_5} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_6} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_7} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_8} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_9} />
                     </div> 
-                    <div className="border-1 border-zinc-700 flex flex-col items-center justify-center px-7 py-10">
+                    <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_10} />
                     </div> 
                 </div>

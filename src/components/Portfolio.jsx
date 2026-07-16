@@ -3,13 +3,14 @@ import { useState } from "react"
 export default function Portfolio(){
 
     return(
-        <section className="py-12 w-full flex flex-col bg-zinc-900 items-center">
+        <section className="py-12 w-full flex flex-col bg-white items-center">
             <div className=" flex flex-col items-center w-full max-w-7xl">
                 <div className="relative flex flex-col items-center">
-                    <h1 className="[-webkit-text-stroke:0.7px_white] text-transparent text-9xl font-extrabold">Portfolio</h1>
-                    <h2 className="font-bold text-3xl absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">Our Case Study</h2>
+                    <h1 className="[-webkit-text-stroke:0.7px_lightgrey] text-transparent text-[160px] font-extrabold">Portfolio</h1>
+                    <h2 className="font-bold text-5xl text-blue-950 absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">Our Case Study</h2>
+                    <h3 className="absolute top-3 left-1/2 -translate-x-1/2 text-orange-500">Portfolio</h3>
                 </div>
-                <div className="flex flex-row gap-3 p-2 w-fit">
+                <div className="flex flex-row gap-3 p-2 w-fit mt-12">
                     <button onClick={() => tab_f('All')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">View All</button>
                     <button onClick={() => tab_f('BedRoom')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">Bedroom Making</button>
                     <button onClick={() => tab_f('Floor')} className="font-bold text-white py-2 px-5 rounded-full bg-zinc-800 hover:bg-orange-500 focus:bg-orange-500 transition-all duration-300 ease-in-out">Floor Making</button>
