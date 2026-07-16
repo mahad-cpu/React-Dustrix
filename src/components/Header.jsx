@@ -57,7 +57,7 @@ export default function Header(){
                                 <li className="transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold"><Link to="/About">About</Link></li>
                                 <li className="group"><Link to="/" className="transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold">Pages</Link>
                                     <ul className="absolute top-25 opacity-0 invisible group-hover:visible group-hover:-translate-y-[40%] group-hover:opacity-100 transitiona-all duration-500 ease-in-out left-45 z-50 bg-yellow-300 w-[200px] rounded-b-lg text-start font-bold flex flex-col justify-center py-2 gap-1">
-                                        <li className="hover:text-white transition-all duration-300 ease-in-out w-full"><a href="#" className="block px-5 font-extrabold">Team</a></li>
+                                        <li className="hover:text-white transition-all duration-300 ease-in-out w-full"><a href="#" className="block px-5 font-extrabold"><Link to="/Team">Team</Link></a></li>
                                         <li className="hover:text-white transition-all duration-300 ease-in-out"><a href="#" className="block px-5 font-extrabold">Faq</a></li>
                                         <li className="hover:text-white transition-all duration-300 ease-in-out"><a href="#" className="block px-5 font-extrabold">Projects</a></li>
                                     </ul>
