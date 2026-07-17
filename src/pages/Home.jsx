@@ -13,8 +13,7 @@ export default function Home() {
     <section className="w-full flex flex-col items-center">
         <div className="w-full flex flex-col items-center bg-cover bg-center bg-no-repeat py-12 px-5 text-white" style={{ backgroundImage: `url(${bgImage})` }}>
             <div className="w-full max-w-7xl my-12">
-                <p className="justify-self-start font-bold text-9xl mt-12">Global</p>
-                <p className="justify-self-start font-bold text-9xl">Automotive</p>
+                <p className="text-start font-bold leading-tight text-[clamp(4rem,6vw,8rem)] mt-12">Global Automotive</p>
                 <div className="mt-7 mb-12 flex flex-row gap-7">
                     <button onClick="#" className="py-3 px-7 flex flex-row items-center gap-2 bg-yellow-300 rounded-lg hover:bg-black transition-all duration-300 ease-in-out">Our Services<img src={arrow} className="h-[16px] rotate-90"/></button>
                     <button onClick="#" className="py-3 px-7 bg-black hover:bg-yellow-300 rounded-lg transition-all duration-300 ease-in-out">Learn More</button>

@@ -13,7 +13,7 @@ export default function Footer(){
     return(
         <footer className="w-full flex flex-col items-center bg-black">
             <div className="w-full max-w-7xl">
-                <div className="bg-black w-full p-10 grid grid-cols-2 lg:grid-cols-4 gap-5 text-start">
+                <div className="bg-black w-full p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-start">
                     <div>
                         <h6 className="font-bold text-white mb-7">About Us</h6>
                         <p>Use Wix's Advanced Web Page Design Tools to Create Your Professional Site in an Instant! Experience Total Design Freedom and the Ability to Customize Your Site as You Wish! Social media compatible with design.</p>
@@ -94,14 +94,14 @@ export default function Footer(){
             </div>
             <div className="w-full bg-yellow-300 flex flex-col items-center">
                 <div className="w-full max-w-7xl">
-                    <div className="relative w-full flex flex-row items-center px-7 py-5 bg-yellow-300 justify-between">
+                    <div className="relative w-full flex flex-col lg:flex-row items-center gap-y-5 px-7 py-5 bg-yellow-300 justify-between">
                         <div className="justify-self-start">
                             <h6 className="font-bold text-black">© Copyright By Dustrix - 2021</h6>
                         </div>
-                        <div className="absolute bottom-0 -translate-x-1/2  left-1/2 justify-self-center bg-white px-10 py-7">
+                        <div className="lg:absolute lg:bottom-0 lg:-translate-x-1/2  lg:left-1/2 justify-self-center bg-white px-10 py-7">
                             <a href="#"><img alt="logo" src={logo}/></a>
                         </div>
-                        <div className="justify-self-end">
+                        <div className="hidden lg:block justify-self-end">
                             <button className="p-3 rounded-md bg-yellow-200 hover:bg-black transition-all duration-300 ease-in-out"><img src={arrow} alt="Top" className="h-[16px]"/></button>
                         </div>
                     </div>

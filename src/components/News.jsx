@@ -10,11 +10,11 @@ export default function News(){
             <div class="w-full max-w-7xl px-7 mb-12">
                 <div className="p-10 pb-12">
                     <div className="relative my-12">
-                        <h1 className="font-extrabold text-[160px] mb-0 text-white">News</h1>
-                        <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-4xl text-black">Blogs Insights</h2>
+                        <h1 className="font-extrabold text-[clamp(4rem,13vw,12rem)] mb-0 text-white">News</h1>
+                        <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(2rem,5vw,4rem)] text-black">Blogs Insights</h2>
                         <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">News Feed</h4>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12 pt-12">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12 pt-12">
                         <div className="rounded-lg overflow-hidden border-1 border-solid border-zinc-200 group">
                             <div className="relative">
                                 <img src={nz_1} />

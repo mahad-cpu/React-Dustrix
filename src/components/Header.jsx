@@ -7,7 +7,7 @@ export default function Header(){
     return(
         <header className="flex flex-col items-center w-full">
             <div className="w-full max-w-7xl">
-                <div className="flex flex-row p-5 text-white w-full justify-between ">
+                <div className="hidden md:block flex flex-row p-5 text-white w-full justify-between ">
                     <div className="flex flex-row gap-5">
                         <div>
                             <a href="#" className="hover:text-yellow-300 transition-all duration-300 ease-in-out"><span className="font-bold ">Working Hours:</span> Mon - Sat 8:00 - 18:00</a>
@@ -25,11 +25,11 @@ export default function Header(){
                 </div>
             </div>
             <div className="relative w-full bg-gray-100 text-black flex flex-col items-center">
-                <div className="w-full max-w-7xl p-7 pb-12 flex flex-row items-center justify-between">
+                <div className="w-full max-w-7xl p-7 lg:pb-12 flex flex-row items-center justify-between">
                     <div>
                         <a hre="#"><img src={logo} className="h-12 w-auto object-contain" alt="logo"/></a>
                     </div>
-                    <div className="flex flex-row gap-7 items-center">
+                    <div className="hidden md:flex flex-row gap-7 items-center">
                         <div className="flex flex-col">
                             <a href="#"><span className="font-extrabold mx-5 text-lg">(+1) 555 234-8765</span></a>
                             <span className="text-zinc-500">Call Us Now</span>

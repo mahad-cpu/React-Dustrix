@@ -6,7 +6,7 @@ export default function Planning(){
         <div className="flex flex-col items-center w-full bg-zinc-100">
             <div className="p-12 w-full max-w-7xl">
                 <div className="relative my-12">
-                    <h1 className="font-extrabold text-[160px] mb-0 text-white">Planning</h1>
+                    <h1 className="font-extrabold text-[clamp(4rem,13vw,12rem)] mb-0 text-white">Planning</h1>
                     <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">Price & PLan</h2>
                     <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Easy Planning</h4>
                 </div>

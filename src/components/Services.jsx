@@ -12,11 +12,11 @@ export default function Services(){
     <div className="w-full flex flex-col items-center bg-zinc-100 p-12">
         <div className="w-full max-w-7xl py-12">
             <div className="relative">
-                <h1 className="font-extrabold text-[160px] mb-0 text-white">Services</h1>
-                <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">What we do</h2>
+                <h1 className="font-extrabold text-[clamp(4rem,13vw,12rem)] mb-0 text-white">Services</h1>
+                <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(1.7rem,5vw,4rem)] text-black">What we do</h2>
                 <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Our Services</h4>
             </div>
-            <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-4 gap-5 py-12 px-12 mt-12">
+            <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-4 gap-5 py-12  mt-12 gap-y-10">
                 <div className="rounded-md bg-white flex flex-row items-center justify-center pt-12 pb-12 gap-5 bg-cover bg-center transition-all duration-300 bg-[url('../assets/Images/svb2.png')]">
                     <div className="relative flex flex-col items-center gap-5 justify-center">
                         <div className="rounded-full bg-yellow-300 w-fit p-7">
