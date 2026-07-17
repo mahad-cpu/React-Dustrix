@@ -12,7 +12,7 @@ export default function Contact(){
                </div>
             </div> 
             <ContactDet/>
-            <GetIn/>
+            <GetIn heading="Get In Touch"/>
         </div>
     )
 }
