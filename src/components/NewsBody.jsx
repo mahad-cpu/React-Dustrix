@@ -101,8 +101,8 @@ export default function NewsBody(){
                             </div>
                             <div className="p-10 border-2 border-solid border-zinc-200">
                                 <h2 className="text-start font-bold text-black">Search Objects</h2><br/>
-                                <form className="flex flex-row items-center overflow-hidden">
-                                    <input type="text" placeholder='Search your keywords...' className="p-5 bg-zinc-100 text-zinc-800 w-full"/>
+                                <form className="flex flex-row items-center">
+                                    <input type="text" placeholder='Search your keywords...' className="p-4 bg-zinc-100 text-zinc-800 w-full"/>
                                     <button typr="submit" className="bg-orange-500 p-3 hover:bg-yellow-300 transition-all duration-300 ease-in-out"><img src={search} className="scale-60"/></button>
                                 </form>
                             </div>
