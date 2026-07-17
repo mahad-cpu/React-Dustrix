@@ -63,7 +63,7 @@ export default function Header(){
                                     </ul>
                                 </li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold"><Link to="/Services">Services</Link></li>
-                                <li className=" transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold">News</li>
+                                <li className=" transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold"><Link to="/News">News</Link></li>
                                 <li className=" transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold"><Link to="/Contact">Contact</Link></li>
                             </ul>
                         </div>

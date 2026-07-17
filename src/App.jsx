@@ -12,14 +12,14 @@ function App() {
   return (
     <Router>
       <Header/>
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Services" element={<Services/>} />
         <Route path="/Team" element={<Team/>}/>
-      </Routes> */}
-      <News/>
+        <Route path="/News" element={<News/>}/>
+      </Routes>
       <Footer/>
     </Router>
   );
