@@ -9,6 +9,7 @@ import pg_6 from '../assets/Images/pg_6.png'
 import pg_7 from '../assets/Images/pg_7.png'
 import pg_8 from '../assets/Images/pg_8.png'
 import arrow from '../assets/Images/arrow_b.png'
+import { Link } from 'react-router-dom';
 
 export default function Portfolio(){
 
@@ -52,9 +53,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_1} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -66,9 +67,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_2} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -80,9 +81,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_2} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -94,9 +95,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_3} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -108,9 +109,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_4} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -122,9 +123,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_5} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -136,9 +137,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_6} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -150,9 +151,9 @@ export default function Portfolio(){
                                     <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                         <img src={pg_6} className="w-full h-full object-cover"/>
                                         <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                        <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                        <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                             <img src={arrow} className="scale-70"/>
-                                        </div></a>
+                                        </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                     </div>
                                     <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -169,9 +170,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_1} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -183,9 +184,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_2} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -197,9 +198,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_3} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -211,9 +212,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_4} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -229,9 +230,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_2} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -243,9 +244,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_6} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -261,9 +262,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_3} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -275,9 +276,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_7} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -293,9 +294,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_2} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -307,9 +308,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_6} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -321,9 +322,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_8} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">
@@ -335,9 +336,9 @@ export default function Portfolio(){
                                 <div className='w-full h-auto relative overflow-clip aspect-[4/3]'>
                                     <img src={pg_8} className="w-full h-full object-cover"/>
                                        <div className="hidden md:block absolute -bottom-11 -left-15 h-[100px] bg-blue-950 -rotate-15 w-[150%] group-hover:bg-orange-500 transition-all duration-300 ease-in-out z-20"></div>
-                                          <a href="#"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
+                                          <Link to="/project-detail"><div className="absolute -bottom-30 right-5 group-hover:-translate-y-[140px] transition-all duration-500 ease-in-out z-50 p-3 w-fit rounded-full bg-white flex flex-row items-center justify-center">
                                              <img src={arrow} className="scale-70"/>
-                                          </div></a>
+                                          </div></Link>
                                         <div className="hidden md:block absolute h-[30px] w-[150%] bg-orange-500 group-hover:bg-orange-600 -rotate-19 z-10 bottom-11 -left-5 transition-all duration-300 ease-in-out"></div>
                                </div>
                                 <div className="text-start p-7 py-3 bg-blue-950 group-hover:bg-orange-500 transition-all duration-300 ease-in-out">

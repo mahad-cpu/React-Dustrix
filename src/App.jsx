@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Header/>
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/About" element={<About/>} />
@@ -24,8 +24,8 @@ function App() {
         <Route path="/News" element={<News/>}/>
         <Route path="/faqs" element={<Faq/>}/>
         <Route path="/projects" element={<Projects/>}/>
-      </Routes> */}
-      <Project_Detail/>
+        <Route path="/project-detail" element={<Project_Detail/>}/>
+      </Routes>
       <Footer/>
     </Router>
   );
