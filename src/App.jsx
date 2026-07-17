@@ -9,12 +9,13 @@ import Team from './pages/Team';
 import News from './pages/News';
 import Faq from './pages/Faq';
 import Projects from './pages/Projects';
+import Project_Detail from './pages/Project_Detail';
 
 function App() {
   return (
     <Router>
       <Header/>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/About" element={<About/>} />
@@ -23,7 +24,8 @@ function App() {
         <Route path="/News" element={<News/>}/>
         <Route path="/faqs" element={<Faq/>}/>
         <Route path="/projects" element={<Projects/>}/>
-      </Routes>
+      </Routes> */}
+      <Project_Detail/>
       <Footer/>
     </Router>
   );
