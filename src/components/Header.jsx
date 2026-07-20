@@ -30,8 +30,8 @@ export default function Header(){
                         </div>
                     </div>
                     <div className="flex flex-row justify-end">
-                        <label for="lang">English</label>
-                        <select>
+                        <label htmlFor="lang">English</label>
+                        <select id="lang">
                             <option></option>
                         </select>
                     </div>
@@ -57,14 +57,14 @@ export default function Header(){
                             <span className="text-zinc-500">Mail Us Now</span>
                         </div>
                         <div className="mx-7">
-                            <button className="font-bold  px-7 py-4 bg-yellow-300 rounded-xl hover:text-white trnsitiona-all duration-300 ease-in-out">Get A Qoute</button>
+                            <button className="font-bold   px-7 py-4 bg-yellow-300 rounded-xl hover:text-white trnsitiona-all duration-300 ease-in-out">Get A Qoute</button>
                         </div>
                     </div>
                 </div>
-                <div className="relative hidden lg:block absolute max-w-7xl top-[85%] w-full bg-transparent px-7 text-md">
-                    <div className="rounded-xl bg-white overflow-hidden flex flex-row justify-between ">
+                <div className="hidden lg:block absolute max-w-7xl top-[85%] w-full bg-transparent px-7 text-md">
+                    <div className="rounded-xl bg-white overflow-hidden flex flex-row justify-between shadow-md">
                         <div className="flex flex-row justify-start w-full">
-                            <ul className="flex flex-row  font-bold gap-10 p-5">
+                            <ul className="flex flex-row   font-bold gap-10 p-5">
                                 <li className="group"><Link to="/" className=" transition-all duration-300 ease-in-out hover:text-yellow-300 font-extrabold">Home</Link>
                                     <ul className="absolute top-25 opacity-0 invisible group-hover:visible group-hover:-translate-y-[40%] group-hover:opacity-100 transitiona-all duration-500 ease-in-out left-8 z-50 bg-yellow-300 w-[200px] rounded-b-lg text-start font-bold flex flex-col justify-center py-2 gap-1">
                                         <li className="hover:text-white transition-all duration-300 ease-in-out"><a href="#" className="block px-5 font-extrabold">Home 1</a></li>
@@ -119,7 +119,7 @@ export default function Header(){
                     <h2>987-098-098-09</h2>
                 </div>
                 <div className="mb-12 px-12 w-[90%] bg-yellow-300 hover:bg-black transition-all duration-500 ease-in-out rounded-md justify-self-center py-3 w-fit">
-                    <Link to="/Contact" cclassName="block w-[80%] bg-yellow-300 text-white font-bold rounded-md py-3 px-7 hover:bg-black transition-all duration-500 ease-in-out" onClick={toggleButton}>Contact</Link>
+                    <Link to="/Contact" className="block w-[80%] bg-yellow-300 text-white font-bold rounded-md py-3 px-7 hover:bg-black transition-all duration-500 ease-in-out" onClick={toggleButton}>Contact</Link>
                 </div>
             </div>
         </header>

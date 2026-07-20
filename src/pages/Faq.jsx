@@ -8,7 +8,7 @@ export default function Faq(){
             <div className="w-full flex flex-col items-center py-12 px-5 bg-center bg-no-repeat bg-cover text-white" style={{ backgroundImage: `url(${bgImage})` }}>
                 <div className="w-full max-w-7xl py-7">
                     <p className="leading-loose text-yellow-300 text-start"><a className="text-white leading-loose">Home</a>| FAQ</p>
-                    <h1 className="text-start text-white font-bold text-7xl">Get Answers</h1>
+                    <h1 className="text-start text-white font-bold text-[clamp(1rem,13vw,4rem)]">Get Answers</h1>
                 </div>
             </div>
             <Answers/>

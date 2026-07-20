@@ -13,7 +13,7 @@ import face from '../assets/Images/face.png'
 export default function TeamMembers(){
     return(
         <section className="w-full flex flex-col items-center bg-white">
-            <div className="w-full max-w-7xl p-12">
+            <div className="w-full max-w-7xl py-12 px-5">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     <div className="border border-solid overflow-clip h-[500px]">
                         <div className="relative bg-zinc-100 h-full w-full">
