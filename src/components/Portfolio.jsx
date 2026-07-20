@@ -37,12 +37,12 @@ export default function Portfolio(){
   };
 
     return(
-        <section className="py-12 w-full flex flex-col bg-white items-center relative overflow-clip">
+        <section className="py-12 w-full flex flex-col bg-white items-center relative overflow-clip px-3">
             <div className="h-[750px] w-[150%] bg-zinc-100 absolute -rotate-13 -bottom-150 -right-30 z-10"></div>
             <div className=" flex flex-col items-center w-full max-w-7xl z-20">
                 <div className="relative flex flex-col items-center pb-12 my-12">
-                    <h1 className="[-webkit-text-stroke:0.7px_lightgrey] text-transparent text-[160px] font-extrabold">Portfolio</h1>
-                    <h2 className="font-bold text-5xl text-blue-950 absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">Our Case Study</h2>
+                    <h1 className="[-webkit-text-stroke:0.7px_lightgrey] text-transparent text-[clamp(5rem,8vw,12rem)] font-extrabold">Portfolio</h1>
+                    <h2 className="font-bold text-[clamp(2.3rem,5vw,3rem)] text-blue-950 absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">Our Case Study</h2>
                     <h3 className="absolute top-3 left-1/2 -translate-x-1/2 text-orange-500">Portfolio</h3>
                 </div>
                 <Tabs aria-label="Pills" variant="pills" theme={tabTheme}>

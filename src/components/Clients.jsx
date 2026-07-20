@@ -11,15 +11,15 @@ import cl_10 from '../assets/Images/cl_10.png'
 
 export default function Client(){
     return(
-        <section className="flex flex-col items-center bg-zinc-100 p-12">
+        <section className="flex flex-col items-center bg-zinc-100 p-12 px-0">
             <div className="py-12">
                 <div className="relative">
-                    <h1 className="font-extrabold text-[160px] mb-0 text-white">Clients</h1>
-                    <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">Our Sponsors</h2>
+                    <h1 className="font-extrabold text-[clamp(6rem,8vw,10rem)] mb-0 text-white">Clients</h1>
+                    <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(2rem,5vw,3rem)] text-black">Our Sponsors</h2>
                     <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Sponsors</h4>
                 </div>
                 <br/>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-5 mt-12">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-5 px-2 mt-12">
                     <div className="border-1 border-zinc-200 flex flex-col items-center justify-center px-7 py-10">
                         <img src={cl_1} />
                     </div> 

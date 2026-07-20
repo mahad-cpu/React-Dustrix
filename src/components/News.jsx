@@ -8,7 +8,7 @@ export default function News(){
     return(
         <section className="flex flex-col items-center w-full bg-zinc-100">
             <div class="w-full max-w-7xl px-7 mb-12">
-                <div className="p-10 pb-12">
+                <div className="py-10 pb-12">
                     <div className="relative my-12">
                         <h1 className="font-extrabold text-[clamp(4rem,13vw,12rem)] mb-0 text-white">News</h1>
                         <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(2rem,5vw,4rem)] text-black">Blogs Insights</h2>

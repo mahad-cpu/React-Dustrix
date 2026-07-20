@@ -14,10 +14,10 @@ import dollar from '../assets/Images/dollar.png'
 
 export default function Roadmap(){
     return(
-        <section className="w-full bg-zinc-100 p-12 border-t-5 border-zinc-200">
+        <section className="w-full bg-zinc-100 p-12 border-t-5 border-zinc-200 overflow-x-visible">
             <div className="relative">
-                <h1 className="font-extrabold text-[160px] mb-0 text-white">Roadmap</h1>
-                <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">Company Roadmap</h2>
+                <h1 className="font-extrabold text-[clamp(4.5rem,8vw,13rem)] mb-0 text-white">Roadmap</h1>
+                <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(1.5rem,5vw,3rem)] text-black">Company Roadmap</h2>
                 <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Goal</h4>
             </div>
             <div className="w-full my-12 pt-12">

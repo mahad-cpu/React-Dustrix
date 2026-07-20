@@ -7,7 +7,7 @@ export default function Planning(){
             <div className="p-12 w-full max-w-7xl">
                 <div className="relative my-12">
                     <h1 className="font-extrabold text-[clamp(4rem,13vw,12rem)] mb-0 text-white">Planning</h1>
-                    <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">Price & PLan</h2>
+                    <h2 className="absolute block w-fit top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(10px,7vw,3rem)] text-black">Price & PLan</h2>
                     <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Easy Planning</h4>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 overflow-visible py-12">

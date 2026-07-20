@@ -9,11 +9,11 @@ import divider from '../assets/Images/divider.png'
 export default function Approach(){
     return(
         <section className="w-full flex flex-col items-center bg-zinc-100 py-12">
-            <div className="w-full max-w-7xl p-12 pt-0">
+            <div className="w-full max-w-7xl p-12 px-5 pt-0">
                <div className="relative my-12">
-                    <h1 className="font-extrabold text-[160px] mb-0 text-white">Approach</h1>
-                    <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-5xl text-black">Our Approach</h2>
-                    <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Capitalize On Hanging</h4>
+                    <h1 className="font-extrabold text-[clamp(4rem,8vw,13rem)] mb-0 text-white">Approach</h1>
+                    <h2 className="absolute top-7 left-1/2 -translate-x-1/2 font-bold text-[clamp(2rem,3vw,5rem)] text-black">Capitalize On Hanging</h2>
+                    <h4 className="absolute top-0 left-1/2 -translate-x-1/2 text-black">Our Approach</h4>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl pt-12 bg-zinc-2000">
                     <div className="border-8 border-white bg-zinc-100">

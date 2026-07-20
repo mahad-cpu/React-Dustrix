@@ -12,7 +12,7 @@ export default function  Amwerk(){
                     </div>
                     <div className="text-start lg:w-[50%] flex flex-col justify-between py-8">
                         <p className="text-zinc-500">Easily import the whole Industry</p>
-                        <h1 className="text-6xl m-0 text-black">Amwerk is always interested.</h1>
+                        <h1 className="text-[clamp(1rem,8vw,2rem)] m-0 text-black">Amwerk is always interested.</h1>
                         <div className="border-l border-solid border-yellow-300 px-3 py-1 my-7">
                             <h2 className="text-black">Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.</h2>
                         </div><hr/><br/>

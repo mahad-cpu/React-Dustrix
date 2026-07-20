@@ -3,15 +3,15 @@ import sk_1 from '../assets/Images/sk_1.png'
 
 export default function Skillset(){
     return(
-        <section className="w-full flex flex-col items-center bg-white py-12">
+        <section className="w-full flex flex-col items-center bg-white py-12 px-5">
             <div className="w-full max-w-7xl">
-              <div className="relative bg-cover bg-center bg-no-repeat flex flex-row" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${sk})`}}>
+              <div className="relative bg-cover bg-center bg-no-repeat flex flex-row" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${sk})`}}>
                 <div className="p-12 hidden lg:block">
                     <img src={sk_1} />
                 </div>
-                <div className="py-12 text-start pr-12">
+                <div className="py-12 text-start pr-12 px-7">
                     <p>Our Skill Set</p>
-                    <h1 className="font-bold text-5xl">Our Professional and Creative Team</h1>
+                    <h1 className="font-bold text-[clamp(2rem,5vw,3rem)] leading-tight">Our Professional and Creative Team</h1>
                     <div className="border-l-2 border-yellow-300 px-5">
                         <h3 className="font-bold text-lg">Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.</h3>
                     </div>

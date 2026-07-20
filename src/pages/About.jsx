@@ -11,7 +11,7 @@ export default function About(){
             <div className="w-full flex flex-col items-center py-12 bg-center bg-cover bg-no-repeat px-5 text-white" style={{ backgroundImage: `url(${bgImage})` }}>
                 <div className="w-full max-w-7xl py-7">
                     <p className="leading-loose text-yellow-300 text-start"><a className="text-white leading-loose">Home</a>| About Us</p>
-                    <h1 className="text-start text-white font-bold text-7xl">About Us</h1>
+                    <h1 className="text-start text-white font-bold text-[clamp(1rem,13vw,4rem)]">About Us</h1>
                 </div>
             </div>
             <Amwerk/>
