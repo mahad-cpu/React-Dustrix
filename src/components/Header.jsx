@@ -2,8 +2,21 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/Images/logo.png'
 import search from '../assets/Images/search.png'
 import grid from '../assets/Images/grid.png'
+import hm from '../assets/Images/hm.png'
+import cross from '../assets/Images/cross.png'
+import {useState} from 'react'
+import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react";
 
 export default function Header(){
+    
+
+   const [sidebarState, changeState] = useState(false);
+   const [accordState, changeAccState] = useState(true);
+   const [accordState2, changeAccState2] = useState(true);
+
+   const toggleButton = () => changeState(!sidebarState);
+   const toggleAccord = () => changeAccState(!accordState);
+   const toggleAccord2 = () => changeAccState2(!accordState2);
     return(
         <header className="flex flex-col items-center w-full">
             <div className="w-full max-w-7xl">
@@ -25,11 +38,16 @@ export default function Header(){
                 </div>
             </div>
             <div className="relative w-full bg-gray-100 text-black flex flex-col items-center">
-                <div className="w-full max-w-7xl p-7 lg:pb-12 flex flex-row items-center justify-between">
-                    <div>
-                        <a hre="#"><img src={logo} className="h-12 w-auto object-contain" alt="logo"/></a>
+                <div className="w-full max-w-7xl p-7 lg:pb-12 flex flex-row flex-wrap items-center justify-between">
+                    <div className='w-full lg:w-fit items-center flex flex-row justify-between'>
+                        <div>
+                            <a href="#"><img src={logo} className="h-12 w-auto object-contain" alt="logo"/></a>
+                        </div>
+                        <div>
+                            <button type="button" onClick={toggleButton} className="lg:hidden p-5"><img src={hm}/></button>
+                        </div>
                     </div>
-                    <div className="hidden md:flex flex-row gap-7 items-center">
+                    <div className="hidden md:flex flex-row gap-7 items-center w-full justify-between lg:w-fit">
                         <div className="flex flex-col">
                             <a href="#"><span className="font-extrabold mx-5 text-lg">(+1) 555 234-8765</span></a>
                             <span className="text-zinc-500">Call Us Now</span>
@@ -72,6 +90,36 @@ export default function Header(){
                             <div className="flex flex-row py-3 px-5 justify-center items-center bg-yellow-300 transition-all duration-300 ease-in-out hover:bg-black"><a href="#"><img className="w-[32px]" src={grid} /></a></div>
                         </div>
                     </div>  
+                </div>
+            </div>
+            <div className={`fixed overflow-hidden top-0 right-0 h-full w-[300px] overflow-y-scroll bg-black text-white z-[100] transition-transform duration-300 ease-in-out transform ${sidebarState ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className="flex flex-row jusitfy-start p-5">
+                    <button type="button" onClick={toggleButton}><img src={cross} className="scale-50"/></button>
+                </div>
+                <div className="flex flex-col">
+                    <button type="button" className="px-10 py-3 text-start transition-all duration-500 text-lg ease-in-out hover:bg-yellow-300 flex flex-row justify-between" onClick={toggleAccord}>Home</button>
+                    <div className={`flex flex-col overflow-hidden transition-all duration-500 ease-in-out transform ${accordState ? `max-h-0 opacity-0` : `max-h-40 opacity-100`}`}>
+                        <Link to="/" className="px-12 py-2 text-start transition-all duration-500 ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Home 1</Link>
+                        <Link to="/" className="px-12 py-2 text-start transition-all duration-500 ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Home 2</Link>
+                        <Link to="/" className="px-12 py-2 text-start transition-all duration-500 ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Home 3</Link>
+                    </div>
+                    <Link to="/About" className="px-10 py-3 text-start transition-all duration-500 text-lg ease-in-out hover:bg-yellow-300" onClick={toggleButton}>About</Link>
+                    <button type="button" className="px-10 py-3 text-start transition-all duration-500 text-lg ease-in-out hover:bg-yellow-300 flex flex-row justify-between" onClick={toggleAccord2}>Pages</button>
+                    <div className={`flex flex-col overflow-hidden transition-all duration-500 ease-in-out transform ${accordState2 ? `max-h-0 opacity-0` : `max-h-40 opacity-100`}`}>
+                        <Link to="/Team" className="px-12 py-2 text-start transition-all duration-500 ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Team</Link>
+                        <Link to="/faqs" className="px-12 py-2 text-start transition-all duration-500 ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Faqs</Link>
+                        <Link to="/projects" className="px-12 py-2 text-start transition-all duration-500 ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Projects</Link>
+                    </div>
+                    <Link to="/Services" className="px-10 py-3 text-start transition-all duration-500 text-lg ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Services</Link>
+                    <Link to="/News" className="px-10 py-3 text-start transition-all duration-500 text-lg ease-in-out hover:bg-yellow-300" onClick={toggleButton}>News</Link>
+                    <Link to="/Contact" className="px-10 py-3 text-start transition-all duration-500 text-lg ease-in-out hover:bg-yellow-300" onClick={toggleButton}>Contact</Link>
+                </div>
+                <div className="flex flex-col p-5 text-start">
+                    <h2>info@webmail.com</h2>
+                    <h2>987-098-098-09</h2>
+                </div>
+                <div className="mb-12 px-12 w-[90%] bg-yellow-300 hover:bg-black transition-all duration-500 ease-in-out rounded-md justify-self-center py-3 w-fit">
+                    <Link to="/Contact" cclassName="block w-[80%] bg-yellow-300 text-white font-bold rounded-md py-3 px-7 hover:bg-black transition-all duration-500 ease-in-out" onClick={toggleButton}>Contact</Link>
                 </div>
             </div>
         </header>
