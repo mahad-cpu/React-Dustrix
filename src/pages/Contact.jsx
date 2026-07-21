@@ -1,6 +1,7 @@
 import bgImage from '../assets/Images/bg-1.png'
 import ContactDet from '../components/Contact-det'
 import GetIn from '../components/GetIn'
+import Location from '../components/Location'
 
 export default function Contact(){
     return(
@@ -12,6 +13,7 @@ export default function Contact(){
                </div>
             </div> 
             <ContactDet/>
+            <Location/>
             <GetIn heading="Get In Touch"/>
         </div>
     )
