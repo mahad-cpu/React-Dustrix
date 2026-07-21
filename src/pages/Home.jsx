@@ -7,6 +7,7 @@ import NewsLetter from '../components/NewsLetter'
 import Solution from '../components/Solution'
 import Planning from '../components/Planning'
 import Framework from '../components/Framework'
+import Faq from '../components/Faq'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="w-full flex flex-col items-center">
             <Experience/>
             <Services/>
+            <Faq/>
             <Framework/>
             <Planning/>
             <Solution/>
